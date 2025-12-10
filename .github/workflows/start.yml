@@ -1,0 +1,10 @@
+name: simple test workflow
+on: workflow_dispatch
+  jobs:
+    first-job: 
+      runs on: ubuntu-latest
+      steps:
+        -name: Displaying statement 1
+        run: echo "Day 60 : Devops class"
+        -name: Displaying statement 2
+        run: echo "Day 2: Github actions"
